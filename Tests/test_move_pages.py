@@ -6,10 +6,10 @@ class TestMovePages():
         self.driver = driver
 
         # CREATE LP Top
-        a = aPage(self.driver)
+        a = aPage()
         b = a.go_to_b_page()
 
-        b = bPage(self.driver)
+        b = bPage()
         a = b.go_to_a_page()
 
 
